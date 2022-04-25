@@ -28,18 +28,5 @@ def encode():
 
 button = Button(text="℉ is...", command=encode)
 button.grid(column=1, row=2,padx=10, pady=10)
-#
-# button2 = Button(text="don't click!", command=button_pressed)
-# button2.grid(column=1, row=1)
-
-#
-# def calculate(n, **kwargs):
-#     print(kwargs)
-#     n += kwargs["add"]
-#     n *= kwargs["multiple"]
-#     n -= kwargs["subtraction"]
-#     n /= kwargs["division"]
-#     return n
-
 window.mainloop()
 
