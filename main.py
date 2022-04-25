@@ -2,6 +2,7 @@ from tkinter import *
 
 window = Tk()
 window.title("℃ to℉ converter")
+window.config(padx=50, pady=50)
 
 my_label = Label(text="℃", font=("Futura", 15, "bold"))
 my_label.grid(column=2, row=0,padx=10, pady=10)
